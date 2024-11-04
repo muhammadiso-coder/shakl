@@ -1,0 +1,33 @@
+.row {
+    width: 1140px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid blue;
+    transition: 1s;
+}
+
+.col:hover{
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 0 0 40px black;
+    cursor: help;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
